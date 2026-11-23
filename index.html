@@ -1,296 +1,166 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cognhacker, communauté de bidouilleurs et bidouilleuses à Cognac : projets, partage de ressources et ouvertures du FabLab.">
+  <title>Cognhacker — Le bidouillage sur Cognac</title>
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/atelier.css">
+</head>
+<body>
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+<header>
+<a class="brand" href="index.html" aria-label="Cognhacker — accueil">COGN<span>HACKER</span>
+<small>LE BIDOUILLAGE SUR COGNAC</small>
+</a>
+<nav aria-label="Navigation principale">
+<a href="https://discord.com/invite/2GmHMP2S">Discord</a>
+<a href="https://github.com/cognhacker">GitHub</a>
+<a href="matos.html">Le Matos</a>
+<a href="https://maps.app.goo.gl/3hCkKsKwkWJbesQJ6">Le Lieu</a>
+<a class="button primary" href="https://cognhacker.taplink.site/">S’inscrire / Don</a>
+</nav>
+</header>
+<main id="contenu">
+<div class="top">
 
-    <title>COGNHACKER.net</title>
-    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
-    <!-- Icons from https://www.svgrepo.com/collection/brankic-glyph-icons/ -->
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
-    <!-- Slick Slider -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" >
-    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" >
-    <!-- Animate -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-    <!-- Main Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <!-- Responsive Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-
-    
-    <!-- Umami (Analytics) -->
-    <script defer src="https://analytics.heuzef.com/script.js" data-website-id="cb60d2fb-b923-4c85-b01b-01021cd5f4ad"></script>
-  </head>
-  <body class="home-page">
-
-    <!-- SVG icon sprite: shared defs referenced via <use> to avoid duplicating markup -->
-    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-      <defs>
-        <symbol id="icon-duotone-cake" viewBox="0 0 64 64"><path d="M27.231,16.2a2.99,2.99,0,0,1-.613-.064h0L22.7,15.313A3,3,0,1,1,23.928,9.44l3.916.818a3,3,0,0,1-.613,5.937Zm-.205-2.021a1.007,1.007,0,0,0,1.183-.775,1,1,0,0,0-.774-1.184L23.519,11.4a1,1,0,0,0-1.183.776,1,1,0,0,0,.774,1.183l3.916.818Z" style="fill:#ffbd4a"></path><path d="M35.934,10.19a3,3,0,0,1-.682-5.921l3.894-.916a3,3,0,1,1,1.374,5.84l-3.894.916A3.027,3.027,0,0,1,35.934,10.19Zm3.9-4.918A.96.96,0,0,0,39.6,5.3l-3.894.916a1,1,0,0,0-.3,1.823.979.979,0,0,0,.755.123l3.894-.916h0a1,1,0,0,0-.227-1.974Z" style="fill:#ffbd4a"></path><path d="M26.667,31.524a22.587,22.587,0,0,0,.68-2.574,92.735,92.735,0,0,0,.636-9.655,1,1,0,0,0-.8-1l-5.874-1.227a1,1,0,0,0-1.129.6,92.75,92.75,0,0,0-3.28,9.1A22.429,22.429,0,0,0,16.5,29.4a6.875,6.875,0,0,0-4.982,5.235l-1.185,5.677a1,1,0,0,0,.774,1.183l3.916.817a.989.989,0,0,0,.752-.141,1.006,1.006,0,0,0,.432-.633,3.315,3.315,0,0,1,1.06-1.934,2.921,2.921,0,0,1,2.489-.39,2.69,2.69,0,0,1,2.324,3.55,1,1,0,0,0,.774,1.182l3.916.818a1,1,0,0,0,1.183-.775l1.185-5.678A6.877,6.877,0,0,0,26.667,31.524Z" style="fill:#ffbd4a"></path><path d="M25.544,50.641l-3.916-.818a1,1,0,0,0-1.183.775,3.326,3.326,0,0,1-1.061,1.933,2.909,2.909,0,0,1-2.488.39h0a2.91,2.91,0,0,1-2.125-1.353,3.321,3.321,0,0,1-.2-2.2,1,1,0,0,0-.775-1.183l-3.915-.817a1,1,0,0,0-1.184.775L7.063,55.977a3,3,0,0,0,2.325,3.548l11.747,2.453a3.024,3.024,0,0,0,.618.064,3,3,0,0,0,2.931-2.388l1.635-7.831a1,1,0,0,0-.775-1.182Z" style="fill:#ffbd4a"></path><path d="M57.18,49.449l-1.832-7.788a1,1,0,0,0-1.2-.745l-3.894.916a1,1,0,0,0-.745,1.2,2.69,2.69,0,0,1-2.233,3.608,2.91,2.91,0,0,1-2.5-.327,3.322,3.322,0,0,1-1.109-1.907,1,1,0,0,0-1.2-.744l-3.893.916a1,1,0,0,0-.745,1.2l1.832,7.787a3,3,0,0,0,2.915,2.316,3.084,3.084,0,0,0,.692-.081l11.681-2.748A3,3,0,0,0,57.18,49.449Z" style="fill:#ffbd4a"></path><path d="M41.835,36.621a2.689,2.689,0,0,1,2.233-3.607,2.69,2.69,0,0,1,3.607,2.233,1,1,0,0,0,1.2.745l3.894-.916a1,1,0,0,0,.745-1.2l-1.329-5.645a6.876,6.876,0,0,0-5.112-5.108A22.392,22.392,0,0,0,46.6,20.5,92.892,92.892,0,0,0,43.1,11.482a1,1,0,0,0-1.144-.571l-5.841,1.374a1,1,0,0,0-.77,1.022,92.528,92.528,0,0,0,.88,9.635,22.552,22.552,0,0,0,.745,2.557,6.879,6.879,0,0,0-2.3,6.85l1.328,5.645a1,1,0,0,0,1.2.745l3.893-.916A1,1,0,0,0,41.835,36.621Z" style="fill:#ffbd4a"></path><path d="M26.08,49.075a1.026,1.026,0,0,1-.2-.021,1,1,0,0,1-.775-1.183l.691-3.309-2.937-.614a1,1,0,0,1-.774-1.182,2.69,2.69,0,0,0-2.324-3.55,2.913,2.913,0,0,0-2.489.39,3.321,3.321,0,0,0-1.06,1.934,1,1,0,0,1-1.184.774L11.107,41.5a1,1,0,1,1,.409-1.957l3.01.628a4.848,4.848,0,0,1,1.5-2.129,4.8,4.8,0,0,1,4.141-.78,4.538,4.538,0,0,1,4,4.921l3.013.629a1,1,0,0,1,.774,1.182l-.895,4.288A1,1,0,0,1,26.08,49.075Z" style="fill:#ffbd4a"></path><path d="M17.838,55.026a6.606,6.606,0,0,1-1.352-.148A4.8,4.8,0,0,1,13,52.508a4.86,4.86,0,0,1-.522-2.551l-3.009-.629A1,1,0,0,1,8.7,48.146l.735-3.52a1,1,0,0,1,1.958.408l-.531,2.541,2.937.613a1,1,0,0,1,.775,1.183,3.321,3.321,0,0,0,.2,2.2A2.91,2.91,0,0,0,16.9,52.921a2.687,2.687,0,0,0,3.55-2.323,1,1,0,0,1,1.183-.775l3.916.818a1,1,0,1,1-.408,1.957l-3.013-.629A4.415,4.415,0,0,1,17.838,55.026Z" style="fill:#ffbd4a"></path><path d="M53.485,39.113a1,1,0,0,1-.972-.771L51.8,35.305l-2.92.687a1,1,0,0,1-1.2-.745,2.69,2.69,0,0,0-3.607-2.233,2.689,2.689,0,0,0-2.233,3.606,1,1,0,0,1-.744,1.2l-3.894.916a1,1,0,1,1-.458-1.947l3-.7a4.54,4.54,0,0,1,3.875-5.022,4.543,4.543,0,0,1,5.708,2.768l3-.705a1,1,0,0,1,1.2.745l.943,4.011a1,1,0,0,1-.745,1.2A1.067,1.067,0,0,1,53.485,39.113Z" style="fill:#ffbd4a"></path><path d="M46.269,48.769a4.39,4.39,0,0,1-2.7-.856,4.855,4.855,0,0,1-1.552-2.09l-2.992.7a1.012,1.012,0,0,1-.756-.123,1,1,0,0,1-.447-.622l-.862-3.664a1,1,0,0,1,1.948-.457l.632,2.691,2.92-.688a1,1,0,0,1,1.2.744,3.322,3.322,0,0,0,1.109,1.907,2.919,2.919,0,0,0,2.5.327,2.689,2.689,0,0,0,2.233-3.608,1,1,0,0,1,.745-1.2l3.894-.916a1,1,0,0,1,.458,1.947l-3,.7a4.541,4.541,0,0,1-3.876,5.022A6.379,6.379,0,0,1,46.269,48.769Z" style="fill:#ffbd4a"></path></symbol>
-      </defs>
-    </svg>
-
-    <!-- Header Area wrapper Starts -->
-    <header id="header-wrap">
-      <!-- Hero Area Start -->
-      <div id="hero-area" class="hero-area-bg">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12">
-              <div class="contents text-center">
-                <div class="img-thumb text-center wow fadeInUp" data-wow-delay="0.6s">
-                  <img class="img-fluid" src="assets/img/logo.png" alt="LOGO Cognhacker">
-                </div>
-                <h2 class="head-title wow fadeInUp">Le bidouillage sur Cognac</h2>
-                <hr />
-                <!-- Modification 2026 : navigation externe centrée entre les deux séparateurs. -->
-                <nav class="hero-navigation-wrap" aria-label="Navigation principale Cognhacker">
-                  <ul class="hero-navigation">
-                    <li>
-                      <a href="https://discord.com/invite/2GmHMP2S" target="_blank" rel="noopener noreferrer">Discord</a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/cognhacker" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    </li>
-                    <li>
-                      <a href="matos.html">Le Matos</a>
-                    </li>
-                    <li>
-                      <a href="https://maps.app.goo.gl/3hCkKsKwkWJbesQJ6" target="_blank" rel="noopener noreferrer">Le Lieu</a>
-                    </li>
-                  </ul>
-                </nav>
-                <!-- Opening schedule: calculated in Europe/Paris by ouverture.js. -->
-                <div id="fablab-opening" class="fablab-opening" role="status" aria-live="polite" aria-atomic="true">
-                  <p id="fablab-opening-label" class="fablab-opening__label">Ouverture du FabLab</p>
-                  <p class="fablab-opening__date"><time id="fablab-opening-date">Tous les 3ᵉ samedis du mois</time></p>
-                  <p class="fablab-opening__hours">10h à 17h</p>
-                  <p class="fablab-opening__rule">Tous les 3ᵉ samedis du mois</p>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Hero Area End -->
-    </header>
-    <!-- Header Area wrapper End -->
-    <div class="container">
-      <div class="row">
-        <hr/>
-      </div>
-    </div>
-
-    <!-- About Section Start -->
-    <div id="about">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="text-wrapper">
-              <div class="section-header text-center">
-                <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">À propos</h2>
-                <div class="row">
-                  <!-- Modification 2026 : la communauté occupe toute la largeur depuis le retrait du laboratoire virtuel. -->
-                  <div class="col-md-12 col-sm-12">
-                    <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
-                      <div class="features-icon">
-                        <svg fill="#137ED9" width="64px" height="64px" viewBox="0 0 128 128" id="Layer_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <polygon points="91,45 83,45 83,73 73,73 73,119 61,119 61,73 51,73 51,45 43,45 43,81 53,81 53,127 81,127 81,81 91,81 "></polygon> <path d="M53,15c0,7.7,6.3,14,14,14s14-6.3,14-14S74.7,1,67,1S53,7.3,53,15z M73,15c0,3.3-2.7,6-6,6s-6-2.7-6-6s2.7-6,6-6 S73,11.7,73,15z"></path> <path d="M19,25c0,7.7,6.3,14,14,14s14-6.3,14-14s-6.3-14-14-14S19,17.3,19,25z M39,25c0,3.3-2.7,6-6,6s-6-2.7-6-6s2.7-6,6-6 S39,21.7,39,25z"></path> <polygon points="113,83 103,83 103,119 87,119 87,127 111,127 111,91 121,91 121,51 113,51 "></polygon> <path d="M87,25c0,7.7,6.3,14,14,14s14-6.3,14-14s-6.3-14-14-14S87,17.3,87,25z M101,19c3.3,0,6,2.7,6,6s-2.7,6-6,6s-6-2.7-6-6 S97.7,19,101,19z"></path> <polygon points="31,83 21,83 21,51 13,51 13,91 23,91 23,127 47,127 47,119 31,119 "></polygon> </g> </g></svg>
-                      </div>
-                      <div class="about-content">
-                        <h4>
-                          Une communauté locale
-                        </h4>
-                        <p>
-                          Cognhacker est une communauté de bidouilleurs et bidouilleuses passionnés aux alentours de la ville de Cognac en Charente, permettant à chacun d’échanger et de partager ses projets et ressources.
-                        </p>
-                        <p>
-                          Vous avez des questions ? Des idées ? Des projets ?<br/>
-                          Commençons par prendre l'apéro !<br/>
-                          <svg class="icon-duotone" width="64px" height="64px" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#icon-duotone-cake"></use></svg>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Modification 2026 : bloc « Laboratoire virtuel » supprimé, car le service n'existe plus. -->
-                  <div class="col-md-12 col-sm-12">
-                    <div class="features-box wow fadeInUp" data-wow-delay="0.9s">
-                      <div class="features-icon">
-                        <svg fill="#137ED9" width="64px" height="64px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>cog</title> <path d="M25.995 19.068h-1.324c-0.215 0.779-0.523 1.518-0.918 2.203l1.224 1.223c0.783 0.783 0.783 2.053 0 2.836l-0.709 0.709c-0.783 0.783-2.053 0.783-2.836 0l-1.232-1.231c-0.683 0.389-1.419 0.692-2.194 0.903v1.284c0 1.107-0.897 2.005-2.005 2.005h-1.002c-1.107 0-2.006-0.897-2.006-2.005v-1.284c-0.774-0.211-1.511-0.515-2.194-0.903l-1.231 1.231c-0.782 0.783-2.052 0.783-2.835 0l-0.71-0.709c-0.783-0.783-0.783-2.053 0-2.836l1.224-1.223c-0.395-0.686-0.703-1.424-0.919-2.203h-1.323c-1.108 0-2.005-0.897-2.005-2.004v-1.003c0-1.107 0.897-2.005 2.005-2.005h1.308c0.207-0.771 0.503-1.505 0.887-2.186l-1.177-1.176c-0.783-0.783-0.783-2.053 0-2.836l0.709-0.708c0.783-0.783 2.053-0.783 2.835 0l1.153 1.153c0.706-0.411 1.468-0.731 2.272-0.95v-1.348c0.001-1.108 0.9-2.005 2.007-2.005h1.002c1.107 0 2.005 0.897 2.005 2.005v1.347c0.806 0.22 1.567 0.54 2.272 0.951l1.153-1.153c0.783-0.783 2.053-0.783 2.836 0l0.709 0.708c0.783 0.783 0.783 2.053 0 2.836l-1.176 1.176c0.384 0.681 0.68 1.415 0.888 2.187h1.308c1.107 0 2.005 0.898 2.005 2.005v1.003c-0.001 1.106-0.898 2.003-2.006 2.003zM15.5 11.080c-3.045 0-5.514 2.469-5.514 5.514s2.469 5.514 5.514 5.514 5.514-2.469 5.514-5.514-2.469-5.514-5.514-5.514zM15.5 19.037c-1.384 0-2.507-1.121-2.507-2.506 0-1.384 1.123-2.506 2.507-2.506s2.506 1.122 2.506 2.506c0 1.385-1.122 2.506-2.506 2.506z"></path> </g></svg>
-                      </div>
-                      <div class="about-content">
-                        <h4>
-                          Partage de ressources
-                        </h4>
-                        <p>
-                          Dans l'esprit du partage et de la collaboration, nous mettons à disposition gracieusement nos outils et machines afin de permettre à chacun de donner vie à ses idées et de développer ses compétences.<br/>
-                          Nous espérons que cette initiative encouragera d'autres membres à faire de même, créant ainsi une dynamique vertueuse au sein de notre communauté.
-                        </p>
-                        <div class="header-button wow fadeInUp" data-wow-delay="1.2s">
-                          <p>
-                            <br/>
-                            <a href="matos.html" target="_blank" class="btn btn-common">Consulter la liste des ressources</a>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- About Section End -->
-
-    <!-- Owl Slider Section Start -->
-    <section class="sloder-img section-padding">
-      <div class="container">
-        <div class="section-header text-center">
-          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Quelques projets</h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="slider-center slider">
-              <div>
-                <img class="img-fluid" src="assets/img/slide/img7.png" alt="Tonneau en chêne pour la fabrication du Cognatomatic" loading="lazy">
-              </div>
-              <div>
-                <img class="img-fluid" src="assets/img/slide/img6.png" alt="Portrait d'Alan Turing en marqueterie/gravure laser composé de mots-clés" loading="lazy">
-              </div>
-              <div>
-                <img class="img-fluid" src="assets/img/slide/img5.png" alt="EggnoggPi, console de jeu rétro en bois avec manettes NES" loading="lazy">
-              </div>
-              <div>
-                <img class="img-fluid" src="assets/img/slide/img4.png" alt="Chaise longue avec toit anti-moustique et housse à motif de feuilles" loading="lazy">
-              </div>
-              <div>
-                <img class="img-fluid" src="assets/img/slide/img3.png" alt="Machine imprimée en 3D pour manipuler des bouteilles en plastique" loading="lazy">
-              </div>
-              <div>
-                <img class="img-fluid" src="assets/img/slide/img2.png" alt="Fuzomoire, cave à liqueurs en bois avec porte gravée au laser" loading="lazy">
-              </div>
-              <div>
-                <img class="img-fluid" src="assets/img/slide/img1.png" alt="Modélisation 3D et fabrication d'un meuble en bois type mobilier de cheminée" loading="lazy">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Owl Slider Section End -->
-
-    <!-- Contact Section Start -->
-    <section id="contact" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-header text-center">
-              <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Contact</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">
-          <div class="col-md-6 col-lg-6 col-sm-12">
-            <div class="contact-block">
-              <h2>Nous rejoindre sur Discord</h2>
-            </div>
-            <div class="contact-block">
-              <br/>
-              <iframe src="https://discord.com/widget?id=1061483128960581652&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 col-sm-12">
-            <div class="contact-right-area wow fadeIn">
-              <h2>Apéro</h2>
-              <div class="contact-right">
-                <div class="single-contact">
-                  <svg class="icon-duotone" width="64px" height="64px" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#icon-duotone-cake"></use></svg>
-                  <p><strong>16100 COGNAC FRANCE</strong></p>
-                </div>
-                <div class="single-contact">
-                  <svg fill="#137ED9" width="64px" height="64px" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" id="memory-email"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M1 5H2V4H20V5H21V18H20V19H2V18H1V5M3 17H19V9H18V10H16V11H14V12H12V13H10V12H8V11H6V10H4V9H3V17M19 6H3V7H5V8H7V9H9V10H13V9H15V8H17V7H19V6Z"></path></g></svg>
-                  <p><strong>orga@cognhacker.net</strong></p>
-                </div>
-                <div class="single-contact">
-                  <svg height="64px" width="64px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#137ED9"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#137ED9;} </style> <g> <path class="st0" d="M96.658,148.337l-21.936-8.261c-20.049-7.552-42.424,2.583-49.975,22.616 c-7.552,20.053,2.588,42.413,22.635,49.965l49.276,18.575V148.337z"></path> <path class="st0" d="M389.449,164.308c-0.222,0.79-0.439,1.539-0.656,2.308v269.03c0,7.454-3.061,14.306-7.946,19.176 c-4.88,4.9-11.722,7.946-19.175,7.946H162.979c0.966-1.577,1.849-3.234,2.529-5.038c1.292-3.45,1.903-6.961,1.903-10.411 c0-5.944-1.828-11.751-5.126-16.622c-3.312-4.871-8.059-8.765-14-11.003l-30.577-11.515h-0.01c-3.44-1.301-6.94-1.913-10.396-1.913 c-5.954,0-11.766,1.824-16.627,5.128c-4.87,3.312-8.774,8.064-11.012,14c-1.286,3.43-1.908,6.941-1.908,10.391 c0,5.975,1.84,11.782,5.137,16.642c3.313,4.861,8.06,8.774,14,11.003l30.582,11.515c3.446,1.302,6.956,1.912,10.401,1.912 c5.956,0,11.766-1.834,16.628-5.127c0.853-0.582,1.636-1.262,2.43-1.932c24.45,20.546,62.683,40.777,119.658,42.137 c118.977,2.82,150.62-85.339,167.813-181.976c0,0,41.052-185.13,43.838-194.911C502.171,86.127,415.91,71.379,389.449,164.308z"></path> <path class="st0" d="M142.986,248.257V44.029h199.48v326.686h-170.9c-0.39,3.47-1.183,6.931-2.464,10.332 c-3.234,8.616-8.982,15.617-16.065,20.427c-1.864,1.262-3.811,2.366-5.827,3.322l5.852,2.199 c8.611,3.234,15.627,8.991,20.437,16.07c3.909,5.758,6.369,12.402,7.163,19.363h181.01c1.903,0,3.529-0.749,4.791-1.982 c1.242-1.262,1.982-2.898,1.982-4.802V6.782c0-1.912-0.74-3.53-1.982-4.792c-1.262-1.252-2.888-1.982-4.791-1.991H123.78 c-1.903,0.009-3.534,0.739-4.792,1.991c-1.242,1.262-1.972,2.879-1.982,4.792v230.62l17.756,6.664 C137.701,245.191,140.442,246.601,142.986,248.257z M242.724,420.739c-6.557,0-11.865-5.324-11.865-11.87 c0-6.557,5.308-11.87,11.865-11.87c6.551,0,11.869,5.313,11.869,11.87C254.593,415.415,249.275,420.739,242.724,420.739z"></path> <path class="st0" d="M118.378,393.489c3.446,1.291,6.955,1.903,10.4,1.903c5.96,0,11.767-1.824,16.627-5.127 c4.87-3.312,8.765-8.074,11.007-14c1.292-3.441,1.903-6.95,1.903-10.401c0-5.956-1.823-11.772-5.126-16.622 c-3.307-4.87-8.059-8.774-13.989-11.012l-30.588-11.525c-3.44-1.291-6.946-1.903-10.406-1.903c-5.954,0-11.762,1.824-16.622,5.127 c-4.865,3.312-8.769,8.074-11.007,14.01c-1.301,3.431-1.908,6.94-1.912,10.401c0,5.954,1.833,11.761,5.136,16.632 c3.308,4.871,8.06,8.755,14.004,11.003L118.378,393.489z"></path> <path class="st0" d="M109.165,312.015c3.446,1.322,6.955,1.913,10.4,1.913c5.955,0,11.776-1.814,16.637-5.128 c4.86-3.312,8.765-8.054,10.997-13.98c1.302-3.471,1.903-6.971,1.903-10.43c0.01-5.935-1.818-11.752-5.116-16.622 c-3.312-4.861-8.069-8.755-14.01-11.003L99.399,245.25c-3.451-1.302-6.951-1.912-10.406-1.912c-5.954,0-11.762,1.823-16.626,5.146 c-4.861,3.293-8.765,8.055-11.013,14c-1.286,3.43-1.898,6.941-1.898,10.391c0,5.954,1.829,11.761,5.132,16.632 c3.308,4.861,8.065,8.765,14.006,11.012L109.165,312.015z"></path> <path class="st0" d="M226.638,188.541l10.781-6.941c3.456-2.208,4.461-6.802,2.238-10.253l-15.247-23.78 c-2.213-3.45-6.808-4.436-10.263-2.237c-0.079,0.048-1.286,0.818-14.335,9.198c-15.203,9.76-7.034,51.572,14.665,85.398 c21.704,33.826,56.329,58.67,71.522,48.91c13.054-8.37,14.251-9.14,14.335-9.208c3.45-2.199,4.456-6.812,2.243-10.263 l-15.258-23.76c-2.208-3.451-6.807-4.456-10.263-2.228l-10.785,6.92c-3.145,2.011-7.31,1.371-9.711-1.488 c0,0-7.247-7.424-18.067-24.293c-10.815-16.848-14.552-26.55-14.552-26.55C222.335,194.595,223.494,190.553,226.638,188.541z"></path> </g> </g></svg>
-                  <p><strong>06.46.34.48.14</strong></p>
-                </div>
-                <div class="single-contact">
-                  <svg fill="#137ED9" height="64px" width="64px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M486.881,68.409H306.759c0.002-0.179,0.014-0.355,0.014-0.534c0-27.995-22.777-50.772-50.772-50.772 s-50.772,22.777-50.772,50.772c0,0.18,0.012,0.356,0.014,0.534H25.119C11.268,68.409,0,79.677,0,93.528V401.37 c0,13.851,11.268,25.119,25.119,25.119h161.942l-6.547,52.376h-18.576c-4.427,0-8.017,3.589-8.017,8.017 c0,4.427,3.589,8.017,8.017,8.017h188.125c4.427,0,8.017-3.589,8.017-8.017c0-4.427-3.589-8.017-8.017-8.017h-18.576 l-6.547-52.376h161.942c13.851,0,25.119-11.268,25.119-25.119V93.528C512,79.677,500.732,68.409,486.881,68.409z M256,33.136 c19.155,0,34.739,15.584,34.739,34.739c0,19.155-15.584,34.739-34.739,34.739s-34.739-15.584-34.739-34.739 C221.261,48.72,236.845,33.136,256,33.136z M290.739,118.647v257.603h-35.273v-5.31c0-10.829-6.903-20.406-17.176-23.83 l-27.918-9.307c-0.528-0.176-1.024-0.408-1.5-0.669c-0.096-0.088-0.186-0.18-0.288-0.263c-0.423-0.349-0.871-0.647-1.338-0.896 c-1.911-1.688-3.087-4.125-3.087-6.792v-12.648l13.035-6.518c7.528-3.765,12.647-10.999,13.69-19.351l2.01-16.079 c9.17-12.039,14.021-26.193,14.021-40.976c0-25.046-13.99-47.094-35.065-59.774c0.565-2.496,0.86-5.044,0.86-7.624 c0-20.924-18.941-37.946-42.221-37.946s-42.221,17.022-42.221,37.946c0,2.577,0.29,5.129,0.856,7.628 c-21.073,12.68-35.061,34.726-35.061,59.77c0,14.823,4.845,28.938,14.019,40.973l2.011,16.084 c1.044,8.352,6.162,15.588,13.691,19.351l13.035,6.518v12.648c0,3.917-2.496,7.381-6.212,8.618l-27.918,9.307 c-10.273,3.424-17.176,13.001-17.176,23.83v5.31H50.238V118.647H290.739z M170.489,178.505c33.3,0,60.392,24.72,60.392,55.106 c0,1.583-0.081,3.156-0.228,4.719l-28.663-30.569c-1.485-1.583-3.549-2.497-5.72-2.532c-2.177-0.027-4.263,0.812-5.798,2.347 c-22.979,22.979-78.223,23.307-78.774,23.308c-0.518,0-1.03,0.057-1.532,0.155C111.646,201.843,138.133,178.505,170.489,178.505z M144.301,166.213c0-12.083,11.748-21.912,26.188-21.912s26.188,9.83,26.188,21.912c0,0.186-0.021,0.369-0.027,0.555 c-8.165-2.778-16.976-4.296-26.161-4.296c-9.186,0-17.998,1.518-26.163,4.296C144.32,166.583,144.301,166.399,144.301,166.213z M195.552,224.336l24.236,25.848l-4.811,38.496c-0.378,3.022-2.229,5.638-4.952,7l-27.823,13.912 c-7.335,3.666-16.09,3.665-23.424,0l-27.823-13.912c-2.724-1.362-4.575-3.978-4.952-7l-5.262-42.097 C137.375,245.555,173.003,241.368,195.552,224.336z M152.852,329.185v-4.676c5.573,2.56,11.602,3.857,17.637,3.857 s12.064-1.297,17.637-3.857v4.676c0,5.02,1.498,9.76,4.112,13.753c-6.115,4.92-13.741,7.659-21.749,7.659 c-7.962,0-15.622-2.746-21.747-7.662C151.355,338.943,152.852,334.203,152.852,329.185z M170.489,366.63 c12.991,0,25.294-4.928,34.648-13.679c0.056,0.019,0.109,0.044,0.165,0.062l27.918,9.307c3.717,1.239,6.212,4.702,6.212,8.62v5.31 H101.545v-5.31c0-3.918,2.497-7.381,6.212-8.62l27.918-9.307c0.056-0.018,0.108-0.043,0.164-0.062 C145.2,361.692,157.572,366.63,170.489,366.63z M196.672,478.864l6.547-52.376h105.563l6.546,52.376H196.672z M495.967,401.37 c0,5.01-4.076,9.086-9.086,9.086H25.119c-5.01,0-9.086-4.076-9.086-9.086V93.528c0-5.01,4.076-9.086,9.086-9.086h182.899 c2.367,6.835,6.151,13.007,11.005,18.171H42.221c-4.427,0-8.017,3.589-8.017,8.017v273.637c0,4.427,3.589,8.017,8.017,8.017 h427.557c4.427,0,8.017-3.589,8.017-8.017V110.63c0-4.427-3.589-8.017-8.017-8.017H292.977 c4.854-5.164,8.639-11.337,11.005-18.171h182.898c5.01,0,9.086,4.076,9.086,9.086V401.37z M424.563,212.654l-15.177-3.795v-2.482 c5.363-4.722,8.551-11.569,8.551-18.787v-42.756c0-4.427-3.589-8.017-8.017-8.017h-34.205c-13.851,0-25.119,11.268-25.119,25.119 v25.653c0,7.218,3.188,14.065,8.551,18.787v2.482l-15.178,3.795c-11.202,2.8-19.026,12.821-19.026,24.369v2.409h-18.171V118.647 h154.99v120.785h-18.171v-2.409C443.591,225.475,435.767,215.455,424.563,212.654z M371.197,195.393 c-2.859-1.664-4.566-4.581-4.566-7.802v-25.653c0-5.01,4.076-9.086,9.086-9.086h26.188v34.739c0,3.221-1.707,6.138-4.566,7.802 c-2.467,1.436-3.985,4.075-3.985,6.929v12.798c0,3.678,2.503,6.885,6.072,7.777l21.25,5.313c4.052,1.012,6.882,4.637,6.882,8.814 v2.408h-86.58v-2.409c0-4.177,2.829-7.801,6.882-8.814l21.251-5.312c3.569-0.891,6.072-4.098,6.072-7.777v-12.798 C375.182,199.466,373.664,196.828,371.197,195.393z M461.762,255.466v120.785h-18.171v-2.409c0-11.547-7.824-21.568-19.027-24.369 l-15.177-3.795v-2.482c5.363-4.722,8.551-11.569,8.551-18.787v-42.756c0-4.427-3.589-8.017-8.017-8.017h-34.205 c-13.851,0-25.119,11.268-25.119,25.119v25.653c0,7.218,3.188,14.064,8.551,18.787v2.482l-15.178,3.795 c-11.202,2.801-19.026,12.821-19.026,24.369v2.409h-18.171V255.466H461.762z M371.197,332.211 c-2.859-1.664-4.566-4.581-4.566-7.802v-25.653c0-5.01,4.076-9.086,9.086-9.086h26.188v34.739c0,3.221-1.707,6.138-4.566,7.802 c-2.467,1.435-3.985,4.075-3.985,6.929v12.798c0,3.678,2.503,6.885,6.072,7.777l21.25,5.312c4.052,1.013,6.883,4.638,6.883,8.815 v2.408h-86.58v-2.409c0-4.177,2.829-7.802,6.882-8.815l21.251-5.311c3.569-0.893,6.072-4.099,6.072-7.777V339.14 C375.182,336.285,373.664,333.647,371.197,332.211z"></path> </g> </g> <g> <g> <path d="M256,51.307c-9.136,0-16.568,7.432-16.568,16.568c0,9.136,7.432,16.568,16.568,16.568c9.136,0,16.568-7.432,16.568-16.568 C272.568,58.739,265.136,51.307,256,51.307z"></path> </g> </g> </g></svg>
-                  <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
-                    <a href="https://meet.jit.si/cognhacker" target="_blank" class="btn btn-common">Rejoindre la visioconférence<br/>(Salle d'accueil)</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Contact Section End -->
-
-
-
-    <!-- Footer Section Start -->
-    <footer id="footer" class="footer-area section-padding">
-    <div id="friends" class="section-padding">
-      <div class="container">
-        <div class="section-header text-center">
-          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Les copains</h2>
-        </div>
-        <div class="row text-align-">
-          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="client-item-wrapper">
-              <a href="https://www.centre-animation.com" target="_blank">
-                <img class="img-fluid" src="assets/img/friends/cac.png" alt="Logo du Centre d'Animation de Cognac" loading="lazy">
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
-            <div class="client-item-wrapper">
-              <a href="https://www.fondationdentreprisemartell.com/" target="_blank">
-                <img class="img-fluid" src="assets/img/friends/martell.png" alt="Logo de la Fondation d'entreprise Martell, qui héberge le fablab" loading="lazy">
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.9s">
-            <div class="client-item-wrapper">
-              <img class="img-fluid" src="assets/img/friends/blank.png" alt="" loading="lazy">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="1.2s">
-            <div class="client-item-wrapper">
-              <img class="img-fluid"  src="assets/img/friends/blank.png" alt="" loading="lazy">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </footer>
-    <!-- Footer Section End -->
-
-    <!-- Preloader -->
-    <div id="preloader">
-      <div class="loader" id="loader-1"></div>
-    </div>
-    <!-- End Preloader -->
-
-    <script src="assets/js/ouverture.js"></script>
-    <script src="assets/js/jquery-min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/main.js"></script>
-
-  </body>
+<div class="container">
+<section class="hero" aria-labelledby="intro-title">
+<div>
+<div class="eyebrow">Cognac · Charente / Communauté locale</div>
+<h1 id="intro-title">Le bidouillage<br>sur <span>Cognac.</span>
+</h1>
+<p>Une communauté de bidouilleurs et bidouilleuses passionnés pour échanger et partager ses projets et ressources.</p>
+<div class="actions">
+<a class="button primary" href="https://discord.com/invite/2GmHMP2S">Rejoindre le Discord ↗</a>
+<a class="button" href="matos.html">Découvrir le matériel</a>
+</div>
+</div>
+<figure class="photo"><img src="assets/img/slide/img6.png" alt="Portrait d'Alan Turing en marqueterie/gravure laser composé de mots-clés" fetchpriority="high">
+<figcaption><span>Portrait d’Alan Turing</span>
+<small>MARQUETERIE / GRAVURE LASER</small>
+</figcaption>
+</figure>
+</section>
+<div id="fablab-opening" class="opening" role="status" aria-live="polite" aria-atomic="true">
+<div>
+<small id="fablab-opening-label">Ouverture du FabLab</small>
+<strong>
+<time id="fablab-opening-date">Tous les 3ᵉ samedis du mois</time> · 10h à 17h</strong>
+<p>Tous les 3ᵉ samedis du mois</p>
+</div>
+<a href="https://maps.app.goo.gl/3hCkKsKwkWJbesQJ6">Voir le lieu ↗</a>
+</div>
+</div>
+</div>
+<div class="container">
+<section class="section" id="projets" aria-labelledby="projets-title">
+<div class="section-title">
+<div>
+<div class="eyebrow">01 / Les réalisations</div>
+<h2 id="projets-title">Quelques projets</h2>
+</div>
+<p>Un aperçu des réalisations présentées<br>par la communauté Cognhacker.</p>
+</div>
+<div class="projects">
+<article class="card"><img src="assets/img/slide/img5.png" alt="EggnoggPi, console de jeu rétro en bois avec manettes NES" loading="lazy">
+<div>
+<h3>EggnoggPi</h3>
+<p>EggnoggPi, console de jeu rétro en bois avec manettes NES</p>
+</div>
+</article>
+<article class="card"><img src="assets/img/slide/img7.png" alt="Tonneau en chêne pour la fabrication du Cognatomatic" loading="lazy">
+<div>
+<h3>Cognatomatic</h3>
+<p>Tonneau en chêne pour la fabrication du Cognatomatic</p>
+</div>
+</article>
+<article class="card"><img src="assets/img/slide/img6.png" alt="Portrait d'Alan Turing en marqueterie/gravure laser composé de mots-clés" loading="lazy">
+<div>
+<h3>Portrait d’Alan Turing</h3>
+<p>Portrait d'Alan Turing en marqueterie/gravure laser composé de mots-clés</p>
+</div>
+</article>
+</div>
+<details class="projects-more">
+<summary>Voir les autres projets</summary>
+<div class="projects">
+<article class="card"><img src="assets/img/slide/img4.png" alt="Chaise longue avec toit anti-moustique et housse à motif de feuilles" loading="lazy">
+<div>
+<h3>Chaise longue</h3>
+<p>Chaise longue avec toit anti-moustique et housse à motif de feuilles</p>
+</div>
+</article>
+<article class="card"><img src="assets/img/slide/img3.png" alt="Machine imprimée en 3D pour manipuler des bouteilles en plastique" loading="lazy">
+<div>
+<h3>Machine imprimée en 3D</h3>
+<p>Machine imprimée en 3D pour manipuler des bouteilles en plastique</p>
+</div>
+</article>
+<article class="card"><img src="assets/img/slide/img2.png" alt="Fuzomoire, cave à liqueurs en bois avec porte gravée au laser" loading="lazy">
+<div>
+<h3>Fuzomoire</h3>
+<p>Fuzomoire, cave à liqueurs en bois avec porte gravée au laser</p>
+</div>
+</article>
+<article class="card"><img src="assets/img/slide/img1.png" alt="Modélisation 3D et fabrication d'un meuble en bois type mobilier de cheminée" loading="lazy">
+<div>
+<h3>Mobilier en bois</h3>
+<p>Modélisation 3D et fabrication d'un meuble en bois type mobilier de cheminée</p>
+</div>
+</article>
+</div>
+</details>
+</section>
+<section class="about" id="a-propos" aria-label="À propos">
+<div>
+<div class="eyebrow">02 / L’esprit du collectif</div>
+<h2>Une communauté locale</h2>
+<p>Cognhacker est une communauté de bidouilleurs et bidouilleuses passionnés aux alentours de la ville de Cognac en Charente, permettant à chacun d’échanger et de partager ses projets et ressources.</p>
+<p>Vous avez des questions ? Des idées ? Des projets ?<br>Commençons par prendre l’apéro !</p>
+</div>
+<div>
+<div class="eyebrow">03 / Les ressources</div>
+<h2>Partager les outils et les idées</h2>
+<p>Dans l’esprit du partage et de la collaboration, nous mettons à disposition gracieusement nos outils et machines afin de permettre à chacun de donner vie à ses idées et de développer ses compétences.</p>
+<p>Nous espérons que cette initiative encouragera d’autres membres à faire de même, créant ainsi une dynamique vertueuse au sein de notre communauté.</p>
+<a href="matos.html">Consulter la liste des ressources ↗</a>
+</div>
+</section>
+<section class="contact" id="contact" aria-label="Contact">
+<div>
+<div class="eyebrow">04 / Nous rejoindre</div>
+<h2>Contact</h2>
+<p>Nous rejoindre sur Discord</p>
+<a class="button primary" href="https://discord.com/invite/2GmHMP2S">Rejoindre le Discord ↗</a>
+</div>
+<div>
+<h2>Apéro</h2>
+<address>16100 COGNAC FRANCE<br>
+<a href="mailto:orga@cognhacker.net">orga@cognhacker.net</a><br>
+<a href="tel:+33646344814">06.46.34.48.14</a>
+</address>
+<p>
+<a href="https://meet.jit.si/cognhacker">Rejoindre la visioconférence (Salle d’accueil) ↗</a>
+</p>
+</div>
+</section>
+<section class="partners" aria-labelledby="partners-title">
+<h2 id="partners-title">Les copains</h2>
+<div class="partner-list">
+<a href="https://www.centre-animation.com"><img src="assets/img/friends/cac.png" alt="Logo du Centre d’Animation de Cognac" loading="lazy">
+</a>
+<a href="https://www.fondationdentreprisemartell.com/"><img src="assets/img/friends/martell.png" alt="Logo de la Fondation d’entreprise Martell, qui héberge le fablab" loading="lazy">
+</a>
+</div>
+</section>
+</div>
+</main>
+<footer><span>COGNHACKER · 16100 Cognac, France</span><span>
+<a href="mailto:orga@cognhacker.net">orga@cognhacker.net</a> · <a href="tel:+33646344814">06.46.34.48.14</a></span>
+</footer>
+<script src="assets/js/ouverture.js" defer>
+</script>
+</body>
 </html>
